@@ -23,7 +23,7 @@ const html = template(data);
 console.log(html);
 //GetCommand(argv.module);
 
-function GetCommand(command) {
+function CreateModule(command) {
     var path = './modules/' + command + '/';
     fs.mkdirSync(path);
     fs.writeFileSync(path + command + '.module.js');
