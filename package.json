@@ -9,7 +9,7 @@
   "bin": {
     "ecare": "./index.js"
   },
-  "keywords": [],
+  "keywords": ["ecare-cli","ecare","cli","ecare cli"],
   "author": "",
   "license": "ISC",
   "dependencies": {
