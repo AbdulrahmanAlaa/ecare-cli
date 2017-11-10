@@ -1,10 +1,8 @@
 #!/usr/bin/env node
-const argv = require('yargs').argv
 const fs = require('fs');
 const handlebars = require('handlebars');
 const { join } = require('path');
-
-
+const commands= require('./configurations/commands.js');
 const data = {
     mycompany: {
         name: 'GASCO',
