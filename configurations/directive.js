@@ -1,6 +1,6 @@
-export const directive = {
-    createDirective
+function createDirective(name) {
+    console.log(name)
 }
-function createDirective() {
-    
+module.exports = {
+    createDirective
 }

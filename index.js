@@ -18,7 +18,7 @@ const source = fs.readFileSync(join(`${__dirname}/template.js`), 'utf-8');
 const template = handlebars.compile(source);
 const html = template(data);
 
-console.log(html);
+// console.log(html);
 //GetCommand(argv.module);
 
 function CreateModule(command) {

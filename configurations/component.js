@@ -1,6 +1,8 @@
-export const component ={
-    createComponent
-}; 
-function createComponent () {
-    
+ 
+function createComponent (name) {
+    console.log(name);
 } 
+
+module.exports = {
+    createComponent
+};

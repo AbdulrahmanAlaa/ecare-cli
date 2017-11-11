@@ -1,6 +1,6 @@
-export const module = {
+function createModule(name) {
+console.log(name);
+}
+module.exports = {
     createModule
-}
-function createModule() {
-    
-}
+};
