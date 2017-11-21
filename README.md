@@ -3,15 +3,15 @@
 ## Table of Contents
 
 * [Installation](#installation)
-* [Usage](#usage)
+* [Help](#Help)
 
 ## Installation
 ```
 npm install -g ecare-cli
 ```
 
-## Usage
+## Help
 
 ```
-ecare-cli help
+ecare-cli --help
 ```
