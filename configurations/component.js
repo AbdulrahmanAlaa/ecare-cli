@@ -1,6 +1,7 @@
 const fs = require('fs');
 var consts = require('./../configurations/consts.js').consts;
 const createFromTemplate = require('./templateGenerator').createFromTemplate;
+
 function createComponent(name) {
     consts.defaultBasePath
     var path = consts.defaultBasePath + '/components/' + name + '/';

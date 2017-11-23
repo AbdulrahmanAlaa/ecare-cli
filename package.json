@@ -17,6 +17,10 @@
   ],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulrahmanalaaeldin/ecare-cli.git"
+  },
   "dependencies": {
     "commander": "^2.11.0",
     "handlebars": "^4.0.11"
