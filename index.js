@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#! /usr/bin/env node
 const fs = require('fs');
 const handlebars = require('handlebars');
 const { join } = require('path');

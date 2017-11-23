@@ -1,10 +1,13 @@
 {
   "name": "ecare-cli",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "bin": {
     "ecare": "./index.js"
+  },
+  "scripts": {
+    "prepublish": "crlf --set=LF ./*"
   },
   "keywords": [
     "ecare-cli",
