@@ -1,5 +1,5 @@
 module.exports.consts = {
-    "defaultBasePath": "app/assets/javascript/angular",
+    "defaultBasePath": "~/projects/vodafone/simplicity/app/assets/javascript/angular",
     "type":{
         "component":"component",
         "directive":"directive",
