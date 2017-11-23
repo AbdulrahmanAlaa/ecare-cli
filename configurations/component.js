@@ -3,7 +3,7 @@ var consts = require('./../configurations/consts.js').consts;
 const createFromTemplate = require('./templateGenerator').createFromTemplate;
 function createComponent(name) {
     consts.defaultBasePath
-    var path = consts.defaultBasePath + './components/' + name + '/';
+    var path = consts.defaultBasePath + '/components/' + name + '/';
     fs.mkdirSync(path);
     /** get required compiled template */
     let component = { moduleName: name, name };
